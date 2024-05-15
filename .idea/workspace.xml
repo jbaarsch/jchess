@@ -5,33 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b977fd0-51ef-4773-ae19-fa9ff133ebc3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jchess.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jchess/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jchess/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jchess/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jchess/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jchess/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jchess/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jchess/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jchess/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jchess/src/main/java/com/jchess/com/jchess/JChessController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jchess/src/main/java/com/jchess/com/jchess/JDBCPostgreSQLConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jchess/src/main/java/com/jchess/com/jchess/JchessApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jchess/src/main/java/com/jchess/com/jchess/MoveRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jchess/src/main/java/com/jchess/com/jchess/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jchess/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jchess/src/main/resources/templates/Home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jchess/src/test/java/com/jchess/JchessApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bishop_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bishop_light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/king_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/king_light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/knight_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/knight_light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pawn_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pawn_light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/queen_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/queen_light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/rook_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/rook_light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jchess/src/main/java/swingChess/BoardPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jchess/src/main/java/swingChess/GamePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jchess/src/main/java/swingChess/GameState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jchess/src/main/java/swingChess/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jchess/src/main/java/swingChess/MovePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jchess/src/main/java/swingChess/MoveRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jchess/src/main/java/swingChess/Piece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jchess/src/main/java/swingChess/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jchess/src/main/java/swingChess/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jchess/src/main/java/swingChess/StatusPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jchess/src/main/java/swingChess/oljchess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,12 +56,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.oljchess.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.JchessApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jbaarsch/Projects/jchess",
+    "last_opened_file_path": "C:/Users/jbaarsch/Projects/jchess/jchess/target",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,7 +79,33 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jbaarsch\Projects\jchess\jchess\target" />
+      <recent name="C:\Users\jbaarsch\Projects\jchess\jchess\src\main\java\swingChess" />
+      <recent name="C:\Users\jbaarsch\Projects\jchess\oljchess" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jbaarsch\Projects\jchess" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.jchess" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.oljchess">
+    <configuration name="oljchess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swingChess.oljchess" />
+      <module name="jchess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="swingChess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JchessApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="jchess" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jchess.JchessApplication" />
@@ -73,6 +113,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.oljchess" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -91,7 +136,8 @@
       <option name="presentableId" value="Default" />
       <updated>1715634574244</updated>
       <workItem from="1715634578432" duration="19000" />
-      <workItem from="1715634724031" duration="1041000" />
+      <workItem from="1715634724031" duration="4074000" />
+      <workItem from="1715802357396" duration="1667000" />
     </task>
     <servers />
   </component>
